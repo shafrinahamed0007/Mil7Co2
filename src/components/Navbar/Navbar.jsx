@@ -6,7 +6,7 @@ import logo from "@/assets/images/logo.png"
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm md:w-11/12 mx-auto ">
+    <div className="navbar bg-base-100 shadow-sm md:w-11/12 mx-auto md:mb-10 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,8 +37,8 @@ const Navbar = () => {
      <Image
        src={logo}
        alt="Ph Play Store Logo"
-       width={70}
-       height={70}
+       width={60}
+       height={60}
      />
 
       </div>

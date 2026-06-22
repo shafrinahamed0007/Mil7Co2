@@ -1,7 +1,7 @@
+import HomePage from "@/components/Home/HomePage";
+
 export default function Home() {
   return (
-    <div>
-      <h2 className="text-2xl font-bold">NEXT JS</h2>
-    </div>
+   <HomePage />
   );
 }

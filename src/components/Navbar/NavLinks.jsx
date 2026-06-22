@@ -25,7 +25,7 @@ const NavLinks = () => {
         <li key={link.path}>
           <Link
             href={link.path}
-            className={`${pathName === link.path ? "bg-blue-500 text-white" : "hover:bg-blue-400"} rounded-lg transition-all duration-300`}
+            className={`${pathName === link.path ? " underline underline-offset-4 text-white" : "hover:text-white hover:underline hover:underline-offset-4"} rounded-lg transition-all duration-300`}
           >
             {link.name}
           </Link>
