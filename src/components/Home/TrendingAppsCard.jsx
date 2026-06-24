@@ -9,7 +9,7 @@ const TrendingAppsCard = ({ app }) => {
       <Link href={`/apps/${app.id}`}>
         <div className="card bg-base-100 shadow-sm">
           <figure>
-            <Image src={app?.image} alt={app?.title} width={170} height={170} />
+            <Image className="rounded-2xl" src={app?.image} alt={app?.title} width={170} height={170} />
           </figure>
           <div className="card-body">
             <h2 className="card-title">{app?.title}</h2>
